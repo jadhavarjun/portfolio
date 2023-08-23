@@ -101,6 +101,7 @@ nav ul li a {
   width: 200px;
   height: 200px;
   border-radius: 200px;
+  border: 1px solid;
 }
 
 .skills ul li img {
@@ -278,7 +279,11 @@ nav ul li a {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  height: 6.5rem;
+  justify-content: center;
+  display: flex;
+  width: 6.5rem;
+  align-items: center;
 }
 .contact__info {
   display: flex;
